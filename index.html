@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/league.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-background-video="./assets/video/mainBg.mp4"
+          data-background-video-loop
+          data-background-video-mutedo
+        >
+          <section
+            data-markdown
+            data-background-video="./assets/video/mainBg.mp4"
+            data-background-video-loop
+            data-background-video-mutedo
+          >
+            <textarea data-template>
+              >## 相见恨晚的
+              >## 一堂前端课
+              | 时间：2021-06-17  | 主讲：娄永亮 |
+              |------------------|------------|
+              </textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              WEB前端技术基础知识基石
+              > HTML / CSS / JavaScript
+              
+            </textarea>
+          </section>
+
+          <section style="height: 50vh">
+            <iframe
+              style="
+                position: absolute;
+                width: 50%;
+                height: 100%;
+                background-color: #fff;
+                left: 0;
+                top: 0;
+              "
+              data-src="https://www.w3.org/TR/html52/"
+            ></iframe>
+            <div
+              class="fragment fade-left"
+              style="
+                padding: 1rem;
+                width: 50%;
+                position: absolute;
+                left: 50%;
+                top: 0;
+                text-align: left;
+              "
+            >
+              <p class="custom-text1_2 fragment fade-left">
+                <a
+                  href="https://baike.baidu.com/item/html5/4234903?fr=aladdin"
+                  target="_blank"
+                  >HTML</a
+                >的全称为超文本标记语言 <br />是一种标记语言
+              </p>
+              <p class="custom-text1_2 fragment fade-left">
+                <span
+                  >专业模版，用于快速构建强壮、适应能力强的web app或站点</span
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html"
+                  >html5-boilerplate</a
+                >
+              </p>
+              <div
+                class="custom-text1_2 fragment fade-left"
+                style="
+                  background-color: rgba(0, 0, 0, 0.65);
+                  padding: 0.5rem;
+                  margin-left: 2rem;
+                "
+              >
+                <span>html5较之前版本的变化（2012年版本稳定）</span>
+                <ul>
+                  <li class="custom-text2">更多更好语义化标签</li>
+                  <li class="custom-text2">&lt;canvas&gt;</li>
+                  <li class="custom-text2">表单功能增强</li>
+                  <li class="custom-text2">多媒体&lt;audio&gt;&lt;video&gt;</li>
+                  <li class="custom-text2">地理定位 Geolocation API</li>
+                  <li class="custom-text2">
+                    数据存储 DOM Storage/Web SQL Database
+                  </li>
+                  <li class="custom-text2">多线程 WebWorkerAPI</li>
+                  <li class="custom-text2">删除一不合理元素</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section style="height: 50vh">
+            <iframe
+              style="
+                position: absolute;
+                width: 50%;
+                height: 100%;
+                background-color: #fff;
+                right: 0;
+                top: 0;
+              "
+              data-src="https://www.w3.org/Style/CSS/Overview.en.html"
+            ></iframe>
+            <div
+              class="fragment fade-left"
+              style="
+                padding: 1rem;
+                width: 50%;
+                position: absolute;
+                left: -5%;
+                top: 0;
+                text-align: left;
+                padding-left: 0;
+              "
+            >
+              <p class="custom-text1_2 fragment fade-right">
+                <a
+                  href="https://baike.baidu.com/item/CSS/5457?fr=aladdin"
+                  target="_blank"
+                  >CSS</a
+                >（层叠样式表）
+                <br />是一种用来表现HTML或XML等文件样式的计算机语言 <br />
+                <a href="https://sass.bootcss.com/documentation" target="_blank"
+                  >SASS</a
+                >是最成熟、稳定和强大的CSS扩展语言或者称CSS预编译语言
+              </p>
+              <p class="custom-text1_2 fragment fade-left">
+                <span
+                  >专业的、现代的重置样式表，覆盖了绝大多数html元素；甚至订正修复了浏览器的bug</span
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/necolas/normalize.css/blob/master/normalize.css"
+                  >normalize.css</a
+                >
+              </p>
+
+              <p class="custom-text1_2 fragment fade-left">
+                <span>优秀的跨浏览器CSS3动画库</span>
+                <a
+                  target="_blank"
+                  href="https://github.com/animate-css/animate.css/blob/main/source/animate.css"
+                  >Animate.css</a
+                >
+              </p>
+
+              <p class="custom-text1_2 fragment fade-left">
+                <a target="_blank" href="https://github.com/airbnb/css"
+                  >Airbnb公司优秀的CSS/SASS实践</a
+                >
+              </p>
+
+              <p class="custom-text1_2 fragment fade-left">
+                <a
+                  target="_blank"
+                  href="https://primer.style/css/components/alerts"
+                  >Github公司优秀的CSS/SASS实践</a
+                >
+              </p>
+
+              <div
+                class="custom-text1_2 fragment fade-left"
+                style="
+                  background-color: rgba(0, 0, 0, 0.65);
+                  padding: 0.5rem;
+                  margin-left: 2rem;
+                "
+              >
+                <span>CSS3较之前版本的变化（2001年工作草案完成）</span>
+                <a
+                  target="_blank"
+                  href="https://baike.baidu.com/item/CSS3/4059544?fr=aladdin"
+                  >百度百科css3页面</a
+                >
+              </div>
+            </div>
+          </section>
+
+          <section style="height: 50vh">
+            <iframe
+              style="
+                position: absolute;
+                width: 50%;
+                height: 100%;
+                background-color: #fff;
+                left: 0;
+                top: 0;
+              "
+              data-src="https://tc39.es/"
+            ></iframe>
+            <div
+              class="fragment fade-left"
+              style="
+                padding: 1rem;
+                width: 50%;
+                position: absolute;
+                left: 50%;
+                top: 0;
+                text-align: left;
+              "
+            >
+              <p class="custom-text1_2 fragment fade-left">
+                <a href="https://codepen.io/pen/" target="_blank">JavaScript</a>
+                <br />是一种多范式工业级的编程语言，12年前它有了超集<a
+                  href="#/typescript-playground"
+                  >TypeScript</a
+                >语言
+                <br />很多Java从业者也喜欢这门语言，10年前Google甚至动手实现了<a
+                  href="#/dart-playground"
+                  >Dart</a
+                >语言
+              </p>
+              <p class="custom-text1_2 fragment fade-left">
+                <span
+                  >专业模版，用于快速构建强壮、适应能力强的web app或站点</span
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html"
+                  >html5-boilerplate</a
+                >
+              </p>
+              <div
+                class="custom-text1_2 fragment fade-left"
+                style="
+                  background-color: rgba(0, 0, 0, 0.65);
+                  padding: 0.5rem;
+                  margin-left: 2rem;
+                "
+              >
+                <span></span>
+                <ul>
+                  <li class="custom-text2">
+                    生于1995年，由Brendan Eich设计，最开始风评很差
+                  </li>
+                  <li class="custom-text2">由ECMAScript、DOM、BOM三部分组成</li>
+                  <li class="custom-text2">
+                    是一种单线程解释性脚本语言（代码不进行预编译）
+                  </li>
+                  <li class="custom-text2">
+                    自身语言在进化；标准制定非常积极，每年一版
+                  </li>
+                  <li class="custom-text2">
+                    生态非常壮大: v8引擎(v9最近也出来了)、nodejs、npm
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section style="height: 50vh">
+          <iframe
+            width="50%"
+            height="50%"
+            src="https://www.youtube.com/embed/k8JD1A9uVaM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="position: absolute; left: 0; top: 0"
+          ></iframe>
+
+          <iframe
+            width="50%"
+            height="50%"
+            src="https://www.youtube.com/embed/MO8hZlgK5zc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="position: absolute; left: 50%; top: 0"
+          ></iframe>
+
+          <iframe
+            width="50%"
+            height="50%"
+            src="https://www.youtube.com/embed/nLF0n9SACd4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="position: absolute; left: 0; top: 50%"
+          ></iframe>
+          <div
+            style="
+              width: calc(50% - 10px);
+              height: calc(50% - 10px);
+              border: 5px solid #fff;
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <h4>再放一个会密集恐惧<br /><span>因此不放了</span></h4>
+          </div>
+        </section>
+        <!--html/css/javascript综合练习器-->
+        <!-- <section style="height: 50vh" id="webskill-playground">
+          <h6>html/css/javascript综合练习器</h6>
+          <iframe
+            style="
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-color: #fff;
+              left: 0;
+              top: 0;
+            "
+            data-src="https://codepen.io/pen/"
+          ></iframe>
+        </section> -->
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+                悟       透       UI       界       面       开       发       基       本       原       理
+                > 组件(React)/数据流(Redux)/响应式(RxJS)
+              </textarea
+            >
+          </section>
+          <section style="height: 50vh">
+            <iframe
+              style="
+                position: absolute;
+                width: 150%;
+                height: 100%;
+                background-color: #fff;
+                left: 0;
+                top: 0;
+              "
+              data-src="https://shimo.im/slides/L2xY0lBsYMMLJd5H"
+            ></iframe>
+          </section>
+        </section>
+
+        <!--typescript练习器-->
+        <section style="height: 50vh" id="typescript-playground">
+          <h6>typescript练习器</h6>
+          <iframe
+            style="
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-color: #fff;
+              left: 0;
+              top: 0;
+            "
+            data-src="https://www.tslang.cn/play/index.html"
+          ></iframe>
+        </section>
+
+        <!--dart练习器-->
+        <section style="height: 50vh" id="dart-playground">
+          <h6>dart练习器</h6>
+          <iframe
+            style="
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-color: #fff;
+              left: 0;
+              top: 0;
+            "
+            data-src="https://dartpad.cn/?null_safety=true"
+          ></iframe>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        disableLayout: false,
+
+        hash: true,
+        slideNumber: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
